@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+
+	<link href="bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="font-awesome/5.0/css/fontawesome-all.min.css" rel="stylesheet" />
+
+
+    <style media="screen">
+    #sheep {
+  border: 3px dotted #FFFFFF;
+  background-color: #7B8B29;
+  margin: auto;
+}
+
+#sheep .jqp-wrapper {
+
+  border: 1px dotted #FFFFFF;
+  background-color: #454509;
+}
+
+#sheep .jqp-piece {
+  border: 1px dotted #FFFFFF;
+  font-size: 45px;
+}
+
+#sheep .jqp-piece:hover {
+  border-style: solid;
+  opacity: 0.8;
+}
+
+#sheep.jqp-solved .jqp-piece:hover {
+  border-style: dotted;
+  opacity: 1.0;
+}
+
+#sheep .jqp-controls a {
+  margin-top: 10px;
+  margin-bottom:  10px;
+  margin-right: 8px;
+  padding: 3px 30px;
+  border: 1px dotted #FFFFFF;
+  background-color: #454509;
+  color: #FFFFFF;
+  font-family: " 811 "'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  font-size: 20px;
+  float: left;
+}
+
+#sheep .jqp-controls a:hover {
+  background-color: #5B8F08;
+}
+
+#sheep .jqp-controls a.jqp-toggle,
+#sheep .jqp-controls a.jqp-down {
+  margin-top: 6px;
+  padding: 7px 30px;
+  background-color: #1A1408;
+}
+
+#sheep .jqp-controls a.jqp-disabled {
+  border-color: #555519;
+  background-color: #6B7B19;
+  color: #555519;
+}
+.gambar {
+  align:center;
+}
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.jqpuzzle.full.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery.jqpuzzle.css" />
+  </head>
+  <body>
+<div class="gambar">
+  <img id="sheep"  src="gambar/yaki.png" alt="Animals crossing" class="jqPuzzle" />
+</div>
+
+<div id="sukses" class="col-md-12">
+
+</div>
+
+
+
+
+  </body>
+</html>
